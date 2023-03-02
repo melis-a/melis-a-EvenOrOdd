@@ -16,11 +16,74 @@ public class Lab {
      * @return a String "Even" if n is even, and "Odd" of in is odd. The test cases are case-sensitive.
      */
     public String decide(int n){
-        if (n % 2 == 0) {
+       // boolean Even = false;
+
+        if(n%2 == 0){
+            return "Even";
+        } else{
+            return "Odd";
         }
-        return "Even"; 
+            
+        }
+        
+
     }
-     else{
-        return "Odd";
-     }
+
+    
+
+        
+         // boolean even = (n % 2== 0);
+         //   System.out.println(n + "is even");
+        
+
+
+
+      // boolean even = (n % 2== 0);
+         //   System.out.println(n + "is even");
+        
+
+       // return "Even";
+        
+       // boolean Odd = (n%2 != 0);
+     //   return "Odd";
+        
+    
+   // boolean even = (n%2==0);
+   // return "even";
+    
+
+
+  
+  
+  
+    /** 
+    public boolean isOdd(int num){
+
+        int n = 0;
+        boolean odd = false;
+
+        while (n != num){
+            odd = !odd;
+            n = n +1;
+        }
+        return odd;
+    
 }
+
+}
+
+last attempt :
+ boolean even;
+    
+    for (int i = 0; i == 5; i++) {
+        if ((n % 2 == n)) {
+            even = true;
+            System.out.println(n + " is even.");
+        }
+        if ((n % 2 != n)) {
+            even = false;
+            System.out.println(n + " is odd.");
+        }
+
+
+**/
